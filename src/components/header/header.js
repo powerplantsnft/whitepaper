@@ -32,8 +32,7 @@ function onMintClick(){
     document.getElementById("mint").scrollIntoView();
 }
 function onHomeClick() {
-    console.log("---")
-    document.getElementById("home").scrollIntoView();
+    window.location.href="https://powerplantsnft.com/"
 }
 function onTeamClick() {
     document.getElementById("team").scrollIntoView();
