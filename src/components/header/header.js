@@ -65,7 +65,7 @@ class Header extends React.Component {
                 <div className='header-control' id="home">
                     <Navbar collapseOnSelect expand="lg">
                         <Container>
-                            <Navbar.Brand href="#home" style={{ paddingTop: 10 }}>
+                            <Navbar.Brand href="https://powerplantsnft.com/" style={{ paddingTop: 10 }}>
                                 <img src={il} width={289} height={115.1} alt='logo' />
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -93,10 +93,10 @@ class Header extends React.Component {
                             </Navbar.Collapse>
                         </Container>
                     </Navbar>
-                    <div className='header-content'>
+                    {/* <div className='header-content'> */}
                         {/* <h1><img className="thePicture" src={il} /></h1> */}
-                        <Container>
-                            <Row>
+                        {/* <Container>
+                            <Row> */}
                                 {/* <Col md={6} xs={12} className='about-description' style={{ textAlign: "left" }}>
                                     <header>
                                         <span className="home-title" >THE NEXT GENERATION<br /> OF PLANTS</span> */}
@@ -123,16 +123,17 @@ class Header extends React.Component {
 
                                     {/* <div><YButton text='COMING SOON' /></div> */}
                                 {/* </Col> */}
-                                <Col>
-                                <RoadMap />
-                                </Col>
+                                {/* <Col>
+                                
+                                </Col> */}
                                 {/* <Col md={6} xs={12} className='image-control'>
                                     <img style={{ borderRadius: 0 }} src={il2} alt='about gif' />
                                 </Col> */}
-                            </Row>
-                        </Container>
+                            {/* </Row>
+                            
+                        </Container> */}
 
-                    </div>
+                    {/* </div> */}
                     <div></div>
                 </div>
             </>

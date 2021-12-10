@@ -29,6 +29,10 @@ class RoadMapItem extends React.Component {
                 {/* <Collapse in={this.state.open}> */}
                     <div id="example" className='collapse-content display-linebreak'>
                         {this.props.content}
+                        <a href={this.props.custom}>{this.props.linky}</a>
+                        <a href={this.props.custom2}>{this.props.linky2}</a>
+                        <a href={this.props.custom3}>{this.props.linky3}</a>
+                        <a href={this.props.custom4}>{this.props.linky4}</a> 
                     </div>
                 {/* </Collapse> */}
             </div>

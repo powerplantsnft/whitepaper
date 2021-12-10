@@ -32,7 +32,7 @@ function App() {
      {/* <Meet /> */}
 
 
-      {/* <RoadMap /> */}
+      <RoadMap />
       {/* <Metaverse/> */}
 
       {/* <Team />
