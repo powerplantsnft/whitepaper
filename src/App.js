@@ -24,19 +24,19 @@ function App() {
   return (
     <div>
       <Header />
-       <State />
-       <Mint />
-      <About /> 
+       {/* <State /> */}
+       {/* <Mint /> */}
+      {/* <About />  */}
       
      {/* <Utility className="utilitysec"/> */}
-     <Meet />
+     {/* <Meet /> */}
 
 
-      <RoadMap />
-      <Metaverse/>
+      {/* <RoadMap /> */}
+      {/* <Metaverse/> */}
 
-      <Team />
-      <Partners />
+      {/* <Team />
+      <Partners /> */}
       <Footer />
     </div>
   );

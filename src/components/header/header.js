@@ -1,5 +1,5 @@
 import React from "react";
-
+import RoadMap from '../../components/roadmap/roadmap';
 
 import il from '../../assets/CenterPic.png'
 import il2 from '../../assets/Pink Caladium.png'
@@ -97,11 +97,11 @@ class Header extends React.Component {
                         {/* <h1><img className="thePicture" src={il} /></h1> */}
                         <Container>
                             <Row>
-                                <Col md={6} xs={12} className='about-description' style={{ textAlign: "left" }}>
+                                {/* <Col md={6} xs={12} className='about-description' style={{ textAlign: "left" }}>
                                     <header>
-                                        <span className="home-title" >THE NEXT GENERATION<br /> OF PLANTS</span>
+                                        <span className="home-title" >THE NEXT GENERATION<br /> OF PLANTS</span> */}
                                         {/* <span style={{ color: "white", fontStyle: "normal" }}>No watering required.<br /></span> */}
-                                    </header>
+                                    {/* </header>
                                     <p className="home-title-content">
                                         No watering required.
                                     </p>
@@ -119,13 +119,16 @@ class Header extends React.Component {
                                             <img src="https://static.wixstatic.com/media/9529be_2bfd2ec19e0045c69c757f9e6d0bc4fe~mv2.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01/9529be_2bfd2ec19e0045c69c757f9e6d0bc4fe~mv2.webp" alt=""/>
                                         </a>
                                     </div>
-
+ */}
 
                                     {/* <div><YButton text='COMING SOON' /></div> */}
+                                {/* </Col> */}
+                                <Col>
+                                <RoadMap />
                                 </Col>
-                                <Col md={6} xs={12} className='image-control'>
+                                {/* <Col md={6} xs={12} className='image-control'>
                                     <img style={{ borderRadius: 0 }} src={il2} alt='about gif' />
-                                </Col>
+                                </Col> */}
                             </Row>
                         </Container>
 

@@ -164,7 +164,7 @@
 
 @media (min-width: 767px) {
     .header-control {
-        background-image: url('../../assets/header/header.jpeg');
+        background-color: #141416;
         /* background-color: white; */
         /* this can be changed to header-back or dickbackground */
         display: flex;
@@ -181,6 +181,7 @@
 
     .thePicture {
         height: 250px;
+        background: black;
         /* border: solid black 10px; */
         /* border-radius: 20px; */
         /* padding: 20px; */
