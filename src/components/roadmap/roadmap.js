@@ -57,12 +57,12 @@ class RoadMap extends React.Component {
                 {
                     tag: 'Phase 6',
                     title: 'When  will  Power  Plants  NFTs  be  released?',
-                    content: 'December  22,  2021  11 AM  PST,  2  PM  EST.'
+                    content: 'December  29,  2021  11 AM  PST,  2  PM  EST.'
                 },
                 {
                     tag: 'Phase 6',
                     title: 'How much does each  Power  Plant  NFT  cost?',
-                    content: '.15  ETH  +  Gas'
+                    content: '0.03  ETH  +  Gas'
                 },
                 {
                     tag: 'Phase 6',

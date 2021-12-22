@@ -55,7 +55,7 @@ class Footer extends React.Component {
                         <Col md="3" className="footer-social">
                             <p className="footer-social-title">Connect with us on Social Media</p>
                             <div className="social-button-container">
-                                <a className="social-button" href="http://discord.gg/RNxVea93dN">
+                                <a className="social-button" href="https://discord.gg/f2jdaTUesH">
                                     <img src="https://static.wixstatic.com/media/9529be_9bd7b35f04334b70aaafeee921e3c67f~mv2.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01/9529be_9bd7b35f04334b70aaafeee921e3c67f~mv2.webp" alt="" />
                                 </a>
                                 <a className="social-button" href="https://twitter.com/PowerPlants_">
